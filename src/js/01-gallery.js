@@ -22,7 +22,7 @@ function createGalleryItemsMarkup(items) {
     />
   </a>
 `
-  }).join('')
+  }).join('');
 }
 
 const lightbox = new SimpleLightbox('.gallery a', {
