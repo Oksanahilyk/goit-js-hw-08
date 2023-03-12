@@ -3,6 +3,8 @@ import throttle from 'lodash.throttle';
 const LOCAL_KEY = 'feedback-form-state';
 
 const form = document.querySelector('.feedback-form');
+const email = document.querySelector('[name="email"]')
+const message = document.querySelector('[name="message"]');
 
 
 form.addEventListener('input', throttle(onInputData, 500));
